@@ -1,0 +1,138 @@
+.wrap{
+    width: 1200px;
+    margin: 50px auto;
+}
+.menu{
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.menu-2{
+    width: 600px;
+    height: 100px;
+    margin: 0px -15px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.menu-item{
+    float: left;
+    margin: 7px 30px;
+    color: rgb(38, 37, 37);
+    font-weight: bold;
+}
+
+.menu-box{
+    float: left;
+    margin: 7px 17px;
+    width: 55px;
+    height: 25px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 40px;
+    background-color: whitesmoke;
+    transition: margin 0.9s, background-color 0.5s;
+}
+.menu-box .round{
+    border: 1px solid #c9c8c8;
+    border-radius: 50%;
+    width: 23px;
+    height: 22px;
+    background-color: white;
+    margin: 0 1px;
+}
+.menu-box .round:active{
+    margin: 0 29px;
+}
+.menu-box:active{
+    background-color: rgb(74, 208, 20);
+    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.44);
+}
+
+.menu-box-skew{
+    float: left;
+    margin: 7px 22px;
+    padding: 2px 0px;
+    box-sizing: border-box;
+    width: 55px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transform: skewX(-10deg);
+    background-color: rgb(61, 59, 59);
+    transition: all 0.5s;
+}
+.menu-box-skew:active{
+    background-color: rgb(226, 24, 24);
+    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.44);
+
+}
+
+.menu-boxer{
+    float: left;
+    margin: 7px 22px;
+    width: 55px;
+    height: 20px;
+    border: 3px solid rgba(234, 233, 233, 0.6);
+    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.4);
+    border-radius: 40px;
+    background-color: white;
+    transition: margin 0.9s, background-color 0.5s;
+}
+.menu-boxer .rounder{
+    border: 1px solid rgba(234, 233, 233, 0.6);
+    border-radius: 45%;
+    width: 21px;
+    height: 16px;
+    background-color: rgba(234, 233, 233, 0.6);
+    margin: 1px 1px;
+}
+.menu-boxer:active{
+    background-color: rgb(74, 208, 20);
+    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.44);
+}
+.rounder:active{
+    margin: 1px 31px;
+}
+
+.menu-boxed{
+    float: left;
+    margin: 7px 8px;
+    width: 55px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgba(8, 158, 8, 0.5);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0;
+    box-sizing: border-box;
+    transition: margin 0.9s, background-color 0.5s;
+}
+.menu-boxed:active{
+    background-color: rgb(226, 24, 24);
+    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.44);
+}
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+/*
+background-color: rgb(74, 208, 20);*/

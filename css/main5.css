@@ -1,0 +1,248 @@
+body{
+    background-color: #4c4c4c;
+}
+.wrap{
+    width: 1500px;
+    height: 800px;
+    margin: 100px 500px;
+    background-color: #4c4c4c;
+
+}
+/*.hand{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #4c4c4c;
+}*/
+.finger-1{
+    width: 90px;
+    height: 250px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    float: left;
+    animation-name: wrap;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+@keyframes  wrap{
+    0%{
+        transform: translateY(0) ;
+    }
+    16%{
+        transform: translateY(-40px) scaleY(0.75);
+        padding-top: -10px;
+    }
+    32%{
+        transform: translateY(0px);
+    }
+    48%{
+        transform: translateY(0);
+    }
+    64%{
+        transform: translateY(-40px) scaleY(0.75);
+        padding-top: -10px;;
+    }
+    80%{
+        transform: translateY(0) ;
+    }
+    96%{
+        transform: translateY(0) ;
+    }
+
+
+}
+.finger-2{
+    width: 90px;
+    height: 270px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    float: left;
+    animation-name: wrap;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 0.2s;
+    animation-duration: 2s;
+}
+.finger-3{
+    width: 90px;
+    height: 293px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    float: left;
+    animation-name: wrap;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 0.35s;
+    animation-duration: 2s;
+}
+.finger-4{
+    width: 90px;
+    height: 270px;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    float: left;
+    animation-name: wrap;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+.finger-5{
+    width: 115px;
+    height: 110px;
+    background-color: whitesmoke;
+    margin-top: 120px;
+    margin-left: 6px;
+    padding-left: 1px;
+    box-sizing: border-box;
+    border-top-right-radius: 105px;
+    border-bottom-right-radius: 100px;
+    float: left;
+    animation-name: wrap;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-delay: 0.65s;
+    animation-duration: 2s;
+}
+
+
+.finger-1 .line-1{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-1 .line-2{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-1 .nail{
+    width: 70px;
+    height: 60px;
+    background-color: #00a2de;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+    margin-top: 145px;
+}
+
+
+.finger-2 .line-1{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-2 .line-2{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-2 .nail{
+    width: 70px;
+    height: 60px;
+    background-color: #00a2de;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+    margin-top: 165px;
+}
+
+
+.finger-3 .line-1{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-3 .line-2{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-3 .nail{
+    width: 70px;
+    height: 60px;
+    background-color: #00a2de;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+    margin-top: 188px;
+}
+
+
+.finger-4 .line-1{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-4 .line-2{
+    width: 47px;
+    height: 6px;
+    background-color: #00a2de;
+    margin: 5px 12px;
+}
+.finger-4 .nail{
+    width: 70px;
+    height: 60px;
+    background-color: #00a2de;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+    margin-top: 165px;
+}
+
+
+.finger-5 .nailed{
+    width: 95px;
+    height: 28px;
+    background-color: #00a2de;
+    border-bottom-left-radius: 32px;
+}

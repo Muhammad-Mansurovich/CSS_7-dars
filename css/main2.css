@@ -1,0 +1,95 @@
+.wrap{
+    width: 1200px;
+    margin: 50px auto;
+}
+.menu{
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    float: left;
+}
+.menu-2{
+    width: 600px;
+    height: 100px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    float: left;
+    position: relative;
+}
+.menu-item{
+    float: left;
+    margin: 7px 30px;
+    color: rgb(38, 37, 37);
+    font-weight: bold;
+}
+.menu-box{
+    width: 80px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 7px 15px;
+    background-image: url("../rasmlar/switch-button.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.menu-2:nth-child(2){
+    background-position: -70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.menu-box{
+    float: left;
+    margin: 7px 15px;
+    width: 60px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
